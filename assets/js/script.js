@@ -6,24 +6,24 @@ document.addEventListener("DOMContentLoaded", function() {
     var footer = document.getElementById("site-footer");
 
     if (navbar && header && router && title && footer) {
-        console.log("Elementos selecionados com sucesso!");
+        console.log("Successfully selected elements!");
 
         title.addEventListener("click", function() {
-            console.log("Clicado no título do navbar!");
+            console.log("Navbar clicked!");
             toggleNavbar();
         });
 
         document.addEventListener("click", function(event) {
             var target = event.target;
             if (!navbar.contains(target) && !title.contains(target)) {
-                console.log("Clicado fora do navbar!");
+                console.log("Clicked outside the navbar!");
                 closeNavbar();
             }
         });
 
         document.addEventListener("keydown", function(event) {
             if (event.key === "Escape") {
-                console.log("Tecla Esc pressionada!");
+                console.log("Esc key pressed!");
                 if (navbar.classList.contains("nav-active")) {
                     closeNavbar();
                 } else {
@@ -32,11 +32,11 @@ document.addEventListener("DOMContentLoaded", function() {
             }
         });
     } else {
-        console.log("Erro: Um ou mais elementos não foram encontrados!");
+        console.log("Error: One or more elements were not found!");
     }
 
     function toggleNavbar() {
-        console.log("Alternando estado do navbar...");
+        console.log("Switching navbar status...");
         if (navbar.classList.contains("nav-active")) {
             closeNavbar();
         } else {
