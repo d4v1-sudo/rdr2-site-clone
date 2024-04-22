@@ -11,8 +11,7 @@ I know, it's a mess but I'm going to try to fix it little by little.
 - What remains to be done
   - Download more images which are called in the [main css](./assets/css/2455f5211be05b218519.css) (just search "/web/20200524223229im_" in the main css)
   - Somehow obtain the code from the sub-sites ```https://www.rockstargames.com/reddeadredemption2/features/weaponry```, ```https://www.rockstargames.com/reddeadredemption2/features/wildlife``` and so on in [Way Back Machine](https://web.archive.org), so far, only definitive There's [```https://www.rockstargames.com/reddeadredemption2 of 2023```](./index.html). To check what's left, just explore ```https://www.rockstargames.com/reddeadredemption2``` in your browser to find more directories on different things about RDR2.
-  - Fix the links called in [main html code](./index.html), in [main css](./assets/css/2455f5211be05b218519.css) and in [script.js](./assets/js
-/d0f410feafebf36c8443.js) and probably a few more, either to download the file and put it in ```assets```, or to remove it as it has no function or fix the languages, etc.
+  - Fix the links called in [main html code](./index.html), in [main css](./assets/css/2455f5211be05b218519.css) and in [script.js](./assets/js/d0f410feafebf36c8443.js) and probably a few more, either to download the file and put it in ```assets```, or to remove it as it has no function or fix the languages switching, etc.
 
 ## Contributions
 
