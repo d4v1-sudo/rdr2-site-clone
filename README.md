@@ -17,4 +17,4 @@ I know, it's a mess but I'm going to try to fix it little by little.
 
 Contributions are welcome! Feel free to open issues or send pull requests to enhance this project.
 
-<a href="https://visitorbadge.io/status?path=https%3A%2F%2Fgithub.com%2Fd4v1-sudo%2Frdr2-2023-site-clone"><img src="https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fd4v1-sudo%2Frdr2-2023-site-clone&label=Thanks%20for%20dropping%20in&countColor=%23263759" /></a>
+<a href="https://visitorbadge.io/status?path=https%3A%2F%2Fgithub.com%2Fd4v1-sudo%2Frdr2-2023-site-clone"><img src="https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fd4v1-sudo%2Frdr2-2023-site-clone&label=Thanks%20for%20dropping%20in&labelColor=%23000000&countColor=%23FFFFFF" /></a>
