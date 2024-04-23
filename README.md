@@ -1,7 +1,14 @@
 # Trying to clone RDR2 site
 Well... basically, I decide to, at least try, use [Way Back Machine](https://web.archive.org) to recreate the Red Dead Redemption 2 website in 2023 (currently it is ugly compared to 2023). Why? Because I liked it, it's a pretty well site and well made, and I like the game too.
 
-I know, it's a mess but I'm going to try to fix it little by little, with some help too.
+I know, the codes are a mess but I'm going to try to fix it little by little, with some help too.
+
+# Screenshots
+
+![Screenshot](screenshot.png)
+![Screenshot](screenshot2.png)
+![Screenshot](screenshot3.png)
+![Screenshot](screenshot4.png)
 
 # Notes
 - Remember, I used web.archive.org to get all the files and codes. More specificlly, in ```https://web.archive.org/web/20230815011942cs_/https://www.rockstargames.com/reddeadredemption2``` at the most.
