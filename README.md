@@ -28,7 +28,7 @@ Then, open the `index.html` file in your browser to start exploring the site.
 - Extract the ZIP file on your computer and open the `index.html` file in your browser
 
 # Notes
-- Remember, I used web.archive.org to retrieve all the files and code. Specifically, from ```https://web.archive.org/web/20230815011942cs_/https://www.rockstargames.com/reddeadredemption2```.
+- Remember, I used web.archive.org to retrieve all the files and code. Specifically, from ```https://web.archive.org/web/20230815011942/https://www.rockstargames.com/reddeadredemption2``` and ```https://web.archive.org/web/20200524222811/https://www.rockstargames.com/reddeadredemption2```.
 
 - No, the [main HTML code](./index.html) is not the original. I had to make some changes, remove some elements, and add [important JavaScript](./assets/js/script.js).
 
