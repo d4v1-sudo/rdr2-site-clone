@@ -1,7 +1,7 @@
 # Trying to clone RDR2 site
 Well... basically, I decide to, at least try, use [Way Back Machine](https://web.archive.org) to recreate the Red Dead Redemption 2 website in 2023 (currently it is ugly compared to 2023). Why? Because I liked it, it's a pretty well site and well made, and I like the game too.
 
-I know, it's a mess but I'm going to try to fix it little by little.
+I know, it's a mess but I'm going to try to fix it little by little, with some help too.
 
 # Notes
 - Remember, I used web.archive.org to get all the files and codes. More specificlly, in ```https://web.archive.org/web/20230815011942cs_/https://www.rockstargames.com/reddeadredemption2``` at the most.
@@ -15,6 +15,6 @@ I know, it's a mess but I'm going to try to fix it little by little.
 
 ## Contributions
 
-Contributions are welcome! Feel free to open issues or send pull requests to enhance this project.
+Contributions are welcome and needed! Feel free to open issues or send pull requests to enhance this project.
 
 <a href="https://visitorbadge.io/status?path=https%3A%2F%2Fgithub.com%2Fd4v1-sudo%2Frdr2-2023-site-clone"><img src="https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fd4v1-sudo%2Frdr2-2023-site-clone&label=Thanks%20for%20dropping%20in&labelColor=%23000000&countColor=%23FFFFFF" /></a>
