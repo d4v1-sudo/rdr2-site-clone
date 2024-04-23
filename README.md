@@ -10,6 +10,23 @@ I know, the code is a mess, but I'm going to try to fix it little by little, wit
 ![Screenshot](screenshot3.png)
 ![Screenshot](screenshot4.png)
 
+# How to use
+- Two ways:
+
+1. **Clone the Repository**:
+
+```shell
+git clone https://github.com/d4v1-sudo/rdr2-2023-site-clone.git
+```
+
+Then, open the `index.html` file in your browser to start exploring the site.
+
+2. **Download the ZIP File**:
+
+- Go to the main repository page at [https://github.com/d4v1-sudo/rdr2-2023-site-clone](https://github.com/d4v1-sudo/rdr2-2023-site-clone.git).
+- Click the "Code" button and select "Download ZIP."
+- Extract the ZIP file on your computer and open the `index.html` file in your browser
+
 # Notes
 - Remember, I used web.archive.org to retrieve all the files and code. Specifically, from ```https://web.archive.org/web/20230815011942cs_/https://www.rockstargames.com/reddeadredemption2```.
 
