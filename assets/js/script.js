@@ -94,3 +94,15 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     }
 });
+
+function toggleLanguageSelect() {
+    var languageSelect = document.querySelector('.language-select');
+    var changeLang = document.querySelector('.change-lang');
+    var changeLang2 = document.querySelector('.change-lang2');
+
+    if (languageSelect && changeLang && changeLang2) {
+        languageSelect.classList.toggle('active');
+        changeLang.classList.toggle('active');
+        changeLang2.classList.toggle('active');
+    }
+}
