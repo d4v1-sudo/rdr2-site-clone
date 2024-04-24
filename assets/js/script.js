@@ -106,3 +106,55 @@ function toggleLanguageSelect() {
         changeLang2.classList.toggle('active');
     }
 }
+
+function changeLanguage(lang) {
+    document.documentElement.lang = lang;
+    updateLanguageSelectorText(lang);
+}
+
+function updateLanguageSelectorText(lang) {
+    var languageSelector = document.getElementById('languageSelector');
+    switch (lang) {
+        case 'en_us':
+            languageSelector.textContent = 'English';
+            break;
+        case 'de_de':
+            languageSelector.textContent = 'Deutsch';
+            break;
+        case 'fr_fr':
+            languageSelector.textContent = 'Français';
+            break;
+        case 'it_it':
+            languageSelector.textContent = 'Italiano';
+            break;
+        case 'ja_jp':
+            languageSelector.textContent = '日本語';
+            break;
+        case 'ru_ru':
+            languageSelector.textContent = 'Русский';
+            break;
+        case 'es_es':
+            languageSelector.textContent = 'Español (España)';
+            break;
+        case 'es_mx':
+            languageSelector.textContent = 'Español (México)';
+            break;
+        case 'pt_br':
+            languageSelector.textContent = 'Português';
+            break;
+        case 'ko_kr':
+            languageSelector.textContent = '한국어';
+            break;
+        case 'zh_hans':
+            languageSelector.textContent = '中文（简体)';
+            break;
+        case 'zh_tw':
+            languageSelector.textContent = '中文（繁體)';
+            break;
+        case 'pl_pl':
+            languageSelector.textContent = 'Polski';
+            break;
+        default:
+            languageSelector.textContent = 'Language';
+    }
+}
