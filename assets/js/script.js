@@ -4,26 +4,30 @@ document.addEventListener("DOMContentLoaded", function() {
     var router = document.getElementById("router");
     var title = document.getElementById("title");
     var footer = document.getElementById("site-footer");
+    const video1 = document.getElementById('video1');
+    const video2 = document.getElementById('video2');
+    const video3 = document.getElementById('video3');
+    const video4 = document.getElementById('video4');
 
     if (navbar && header && router && title && footer) {
-        console.log("Elements selected successfully!");
+        console.log("Elementos selecionados com sucesso!");
 
         title.addEventListener("click", function() {
-            console.log("Clicked on navbar title!");
+            console.log("Clicado no título do navbar!");
             toggleNavbar();
         });
 
         document.addEventListener("click", function(event) {
             var target = event.target;
             if (!navbar.contains(target) && !title.contains(target)) {
-                console.log("Clicked outside navbar!");
+                console.log("Clicado fora do navbar!");
                 closeNavbar();
             }
         });
 
         document.addEventListener("keydown", function(event) {
             if (event.key === "Escape") {
-                console.log("Escape key pressed!");
+                console.log("Tecla Esc pressionada!");
                 if (navbar.classList.contains("nav-active")) {
                     closeNavbar();
                 } else {
@@ -39,7 +43,7 @@ document.addEventListener("DOMContentLoaded", function() {
             }
         });
 
-        // Save the original element with the active class
+        // Salva o elemento original com a classe active
         var originalActiveLink = document.querySelector('.links a.active');
 
         var links = document.querySelectorAll('.links a');
@@ -52,11 +56,11 @@ document.addEventListener("DOMContentLoaded", function() {
             });
         });
     } else {
-        console.log("Error: One or more elements were not found!");
+        console.log("Erro: Um ou mais elementos não foram encontrados!");
     }
 
     function toggleNavbar() {
-        console.log("Toggling navbar state...");
+        console.log("Alternando estado do navbar...");
         if (navbar.classList.contains("nav-active")) {
             closeNavbar();
         } else {
@@ -65,7 +69,7 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 
     function openNavbar() {
-        console.log("Opening navbar...");
+        console.log("Abrindo navbar...");
         header.classList.add("nav-active");
         navbar.classList.add("nav-active");
         router.classList.add("nav-active", "dimmable-active");
@@ -73,7 +77,7 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 
     function closeNavbar() {
-        console.log("Closing navbar...");
+        console.log("Fechando navbar...");
         header.classList.remove("nav-active");
         navbar.classList.remove("nav-active");
         router.classList.remove("nav-active", "dimmable-active");
@@ -158,3 +162,29 @@ function updateLanguageSelectorText(lang) {
             languageSelector.textContent = 'Language';
     }
 }
+
+  function audio1() {
+    video1.classList.toggle('active');
+  }
+
+  function audio2() {
+    video2.classList.toggle('active');
+  }
+
+  function audio3() {
+    video3.classList.toggle('active');
+  }
+
+  function audio4() {
+    video4.classList.toggle('active');
+  }
+
+function toggleAudio(event) {
+  const video = event.currentTarget.querySelector("video");
+  video.muted = !video.muted;
+}
+
+const videoContainers = document.querySelectorAll('.video-button-container');
+videoContainers.forEach(function(container) {
+  container.addEventListener('click', toggleAudio);
+});
