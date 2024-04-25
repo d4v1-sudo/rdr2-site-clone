@@ -16,14 +16,14 @@ I know, the code is a mess, but I'm going to try to fix it little by little, wit
 1. **Clone the Repository**:
 
 ```shell
-git clone https://github.com/d4v1-sudo/rdr2-2023-site-clone.git
+git clone https://github.com/d4v1-sudo/rdr2-site-clone.git
 ```
 
 Then, open the `index.html` file in your browser to start exploring the site.
 
 2. **Download the ZIP File**:
 
-- Go to the main repository page at [https://github.com/d4v1-sudo/rdr2-2023-site-clone](https://github.com/d4v1-sudo/rdr2-2023-site-clone.git).
+- Go to the main repository page at [https://github.com/d4v1-sudo/rdr2-site-clone](https://github.com/d4v1-sudo/rdr2-site-clone.git).
 - Click the "Code" button and select "Download ZIP."
 - Extract the ZIP file on your computer and open the `index.html` file in your browser
 
@@ -41,4 +41,4 @@ Then, open the `index.html` file in your browser to start exploring the site.
 
 Contributions are welcome and needed! Feel free to open issues or send pull requests to enhance this project.
 
-<a href="https://visitorbadge.io/status?path=https%3A%2F%2Fgithub.com%2Fd4v1-sudo%2Frdr2-2023-site-clone"><img src="https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fd4v1-sudo%2Frdr2-2023-site-clone&label=Thanks%20for%20dropping%20in&labelColor=%23000000&countColor=%23FFFFFF" /></a>
+<a href="https://visitorbadge.io/status?path=https%3A%2F%2Fgithub.com%2Fd4v1-sudo%2Frdr2-site-clone"><img src="https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fd4v1-sudo%2Frdr2-2023-site-clone&label=Thanks%20for%20dropping%20in&labelColor=%23000000&countColor=%23FFFFFF" /></a>
