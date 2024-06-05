@@ -1,5 +1,5 @@
 # Trying to Clone the RDR2 Site
-Well... basically, I decided to, at least try, to use the [Wayback Machine](https://web.archive.org) to recreate the Red Dead Redemption 2 website as it was in 2023 (currently it looks outdated compared to 2023). Why? Because I liked it, it's a pretty well-designed site, and I also like the game.
+Well... basically, I decided to (at least try) to use the [Wayback Machine](https://web.archive.org) to recreate the Red Dead Redemption 2 website as it was in 2023 (currently it looks outdated compared to 2023). Why? Because I liked it, it's a pretty well-designed site, and I also like the game.
 
 I know, the code is a mess, but I'm going to try to fix it little by little, with some help too.
 
